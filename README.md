@@ -10,6 +10,10 @@ The goal is to accurately segment **cars from high-resolution images** using dee
 - **Dataset:** Carvana (Kaggle)  
 - **Model:** U-Net  
 - **Framework:** PyTorch
+
+## **Short Summary:**
+This project implements a U-Net deep learning model to perform semantic segmentation of cars on the Carvana dataset. It takes high-resolution car images as input and produces accurate binary masks highlighting the car regions.
+The results are evaluated on IoU, Dice score.
   
 ## Installation
 Clone the repository and install dependencies:
@@ -20,6 +24,4 @@ cd semantic_segmentation_cars
 pip install -r requirements.txt
 
 
-## **Short Summary:**
-This project implements a U-Net deep learning model to perform semantic segmentation of cars on the Carvana dataset. It takes high-resolution car images as input and produces accurate binary masks highlighting the car regions.
-The results are evaluated on IoU, Dice score.
+
